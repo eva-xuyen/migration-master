@@ -1,0 +1,15 @@
+[submodule "fortress-experiments"]
+	path = fortress-experiments
+	url = git@github.com:eva-xuyen/migration.git
+	branch = fortress-experiments
+[submodule "fortress-experiments2"]
+	path = fortress-experiments2
+	url = git@github.com:eva-xuyen/migration.git
+	branch = fortress-experiments2
+[submodule "i18n-Delete"]
+	path = i18n-Delete
+	url = git@github.com:eva-xuyen/migration.git
+	branch = i18n-Delete
+[submodule "master"]
+	path = master
+	url = git@github.com:eva-xuyen/migration.git
