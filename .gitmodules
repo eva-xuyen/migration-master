@@ -10,3 +10,11 @@
 	path = master
 	url = git@github.com:eva-xuyen/migration.git
 	branch = master
+[submodule "vietnam-labo_develop"]
+	path = vietnam-labo_develop
+	url = git@github.com:aucfan/vietnam-labo.git
+	branch = develop
+[submodule "migration_i18n-Delete"]
+	path = migration_i18n-Delete
+	url = git@github.com:eva-xuyen/migration.git
+	branch = i18n-Delete
