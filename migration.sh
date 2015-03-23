@@ -12,7 +12,7 @@ subModuleList=$(grep path .gitmodules | sed 's/.*= //')
 while read branchname;
 do
   submoduleDir=$sortRepoName"_"$branchname
-  if echo $subModuleList | grep -qv $branchname;
+  if echo $subModuleList | grep -qv $submoduleDir;
   then
     git submodule add -b $branchname $cloneUrl $submoduleDir
     git config -f .gitmodules submodule.$submoduleDir.branch $branchname
